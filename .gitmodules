@@ -1,0 +1,12 @@
+[submodule "chtml"]
+	path = chtml
+	url = https://github.com/Maksasj/chtml
+[submodule "chttp"]
+	path = chttp
+	url = https://github.com/Maksasj/chttp
+[submodule "crfb"]
+	path = crfb
+	url = https://github.com/Maksasj/crfb
+[submodule "nika"]
+	path = nika
+	url = https://github.com/Maksasj/nika
