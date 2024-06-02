@@ -1,0 +1,1 @@
+clang lemon_test.c -Wall -Wextra
