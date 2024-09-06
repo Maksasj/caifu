@@ -10,3 +10,6 @@
 [submodule "nika"]
 	path = nika
 	url = https://github.com/Maksasj/nika
+[submodule "euclib"]
+	path = euclib
+	url = git@github.com:Maksasj/euclib.git

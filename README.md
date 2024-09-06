@@ -16,6 +16,7 @@ caifu - collection of interesting, self contained C libraries.
 - **cherry** - timer library
 - **kiwi** - fixed point arithmetic library
 - **peach** - linear algebra library (matrices)
+- **euclib** - simple plotting STB-style library
 
 ## License
 caifu is free and open source C library collection. All code in this repository is licensed under
