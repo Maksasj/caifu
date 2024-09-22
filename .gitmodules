@@ -13,3 +13,6 @@
 [submodule "euclib"]
 	path = euclib
 	url = git@github.com:Maksasj/euclib.git
+[submodule "haul"]
+	path = haul
+	url = git@github.com:Maksasj/haul.git
