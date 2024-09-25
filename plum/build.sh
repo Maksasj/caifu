@@ -1,0 +1,1 @@
+clang plum_test.c -Wall -Wextra
