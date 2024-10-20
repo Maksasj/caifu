@@ -16,3 +16,6 @@
 [submodule "haul"]
 	path = haul
 	url = git@github.com:Maksasj/haul.git
+[submodule "cora"]
+	path = cora
+	url = git@github.com:Maksasj/cora.git

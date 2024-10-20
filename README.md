@@ -11,6 +11,7 @@ caifu - collection of interesting, self contained C libraries.
 
 ### STB style single-header libraries
 - **lemon** - custom memory allocator, can be used in **WASM**
+- **cora** - minimalistic STB style, window creation and management library (Windows, Linux)
 - **plum** - logging library
 - **nika** - simple raytracing engine
 - **blueberry** - very minimalistic neural network framework.
