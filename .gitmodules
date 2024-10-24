@@ -19,3 +19,6 @@
 [submodule "cora"]
 	path = cora
 	url = git@github.com:Maksasj/cora.git
+[submodule "triton"]
+	path = triton
+	url = git@github.com:Maksasj/triton.git

@@ -20,6 +20,7 @@ caifu - collection of interesting, self contained C libraries.
 - **peach** - linear algebra library (matrices)
 - **euclib** - simple plotting STB-style library
 - **haul** - simple STB-style container library 
+- **triton** - STB-style C JSON serialization/deserialization library
 
 ## License
 caifu is free and open source C library collection. All code in this repository is licensed under
