@@ -12,6 +12,7 @@
 #define PLUM_GRA  "\x1B[90m"
 
 typedef enum PlumLogLevel {
+    PLUM_TRACE,
     PLUM_INFO,
     PLUM_DEBUG,
     PLUM_WARNING,
@@ -35,6 +36,7 @@ void plum_log(PlumLogLevel logLevel, const char *format, ...);
 
 const char* plum_unix_log_level_color(PlumLogLevel logLevel) {
     switch (logLevel) {
+        case PLUM_TRACE:         { return PLUM_GRA; }
         case PLUM_INFO:          { return PLUM_GRN; }
         case PLUM_DEBUG:         { return PLUM_CYN; }
         case PLUM_WARNING:       { return PLUM_YEL; }
@@ -48,6 +50,7 @@ const char* plum_unix_log_level_color(PlumLogLevel logLevel) {
 
 const char* plum_stringify_log_level(PlumLogLevel logLevel) {
     switch (logLevel) {
+        case PLUM_TRACE:         { return "TRC"; }
         case PLUM_INFO:          { return "INF"; }
         case PLUM_DEBUG:         { return "DBG"; }
         case PLUM_WARNING:       { return "WAR"; }
